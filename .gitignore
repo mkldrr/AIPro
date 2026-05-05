@@ -1,0 +1,63 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private planning notes
+SPEC.md
+
+# Logs
+*.log
+logs/
+
+# Dependency folders
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# Test and coverage output
+coverage/
+.coverage
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# JavaScript and TypeScript
+.next/
+.nuxt/
+.svelte-kit/
+*.tsbuildinfo
+
+# Java and JVM
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+
+# macOS and local tool caches
+.cache/
+.tmp/
+tmp/
